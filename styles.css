@@ -280,18 +280,19 @@ color:#243E65;
   max-height: 1.625;
   max-width: 576px;
 }
-}
 
+.service__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .service__description {
   display: flex;
 
   margin: 8px 0 0 16px;
 }
-.services {
-  height: 100%;
-  display: flex;
-}
+
 .service {
   width: calc(100%/3);
  margin: 0 16px;
