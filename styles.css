@@ -292,13 +292,12 @@ color:#243E65;
 
   margin: 8px 0 0 16px;
 }
-.servic__container {
+.service__container {
   width: calc(100% /3);
 }
 
 .service {
-  display: flex;
-  align-items: start;
+ align-items: start;
  margin: 0 16px;
  padding: 32px 24px;
  width: 100%;
@@ -321,5 +320,4 @@ font-size: 24px;
   font-size: 16px'
   border: solid 1px rgb(229, 231, 235);
   border-radius: 500px;
-
 }
