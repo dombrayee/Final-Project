@@ -214,15 +214,19 @@ h1 {
 
 .header__email {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 500px;
+  padding: 5px;
 }
 
 
 
 .header__email--input {
 font-weight: 600;
-  font-size: 12px;
-  width: 40%
-
+margin-left: 15px;
+border: none;
 }
 
 .header__email--btn {
@@ -252,9 +256,6 @@ color:#243E65;
   
 }
 
-.service {
-  display: flex;
-}
 
 .features__section--title {
   color: #6415ff;
@@ -288,17 +289,16 @@ color:#243E65;
 }
 
 .service__description {
-  
-
-  margin: 8px 0 0 16px;
+ margin: 8px 0 0 16px;
 }
+
 .service__container {
-  width: calc(100% /3);
+ width: calc(100% /3);
 }
 
 .service {
+ display: flex;
  align-items: start;
- margin: 0 16px;
  padding: 32px 24px;
  width: 100%;
 }
