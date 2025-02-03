@@ -69,11 +69,12 @@ margin-left: 35px;
   font-weight: 600;
   padding-top: 4px;
   margin: 0 24px;
-  letter-spacing: 0.35px
-  border-bottom: 2px solid transpatent;
+  letter-spacing: 0.35px;
+  border-bottom: 2px solid transparent;
   position: relative;
   transition: all 300ms;
   text-decoration: none;
+  
 }
 .nav__link--anchor:hover {
   text-decoration: underline;
@@ -125,27 +126,19 @@ header {
 .header__img--wrapper {
   width: 100%;
   max-width: 768px;
-
+  
 }
 
 
 .header__img {
-width: 100%;
+  width: 100%;
 }
 
 
 
 
- 
 
-.row {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 0 auto;
 
-}
-  
 .btn__menu {
   background-color: white;
   font-size: 40px;
@@ -154,12 +147,12 @@ margin: 0 auto;
   display: none;
 }
 
-.na_logo {
-color: #243E65;
-font-size: 16px;
-margin: 8px 0px;
-padding: 0 0 4px;
-
+.nav_logo {
+  color: #243E65;
+  font-size: 16px;
+  margin: 8px 0px;
+  padding: 0 0 4px;
+  
 }
 .nav__logo--img {
   width: 40px;
@@ -179,6 +172,23 @@ button {
 
 
 
+
+.row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+
+}
+
+/* HEADER */
+
+.header__title {
+  color: #1a202c;
+  line-height: 1.25;
+  font-size: 48px;
+  font-weight: bold;
+}
 .header__description {
   width: 40%;
 }
@@ -198,7 +208,7 @@ font-weight: 700;
 letter-spacing: 0.6px;
 }
 
-h1 {
+.quality__sub-title {
   font-size: 48px;
   color: #1A202c;
 }
@@ -249,6 +259,20 @@ color:#243E65;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}  
+
+.features__row {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .services {
@@ -347,7 +371,11 @@ padding: 16px;
 }
 
 .quality__sub-title {
- 
+ font-size: 48px;
+ font-weight: 900;
+ color: rgb(36, 62, 99);
+ margin: 16px 0;
+ letter-spacing: 0.025em;
 }
 
 .quality__img--wrapper {
@@ -358,6 +386,13 @@ padding: 16px;
   Z-index: 2;
   display: flex;
   width: 50%;
+}
+
+.quality__section--para {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
 }
 
 img {
@@ -377,4 +412,13 @@ width: 100%;
   z-index: 0;
   display: block;
   
+}
+
+.quality__btn {
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.quality__btn:hover {
+background-color:rgb(36, 3, 102);
 }
