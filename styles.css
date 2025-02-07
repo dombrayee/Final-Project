@@ -252,7 +252,7 @@ color:#243E65;
 /* features */
 
 .features__container {
-  padding: 96px 0;
+  padding: 80px 0;
 }
 
 .features__row {
@@ -359,6 +359,10 @@ padding: 16px;
 
 /* Quality Section */
 
+#quality {
+  padding: 0 36px;
+}
+
 .quality__title {
   font-size: 16px;
   color: #6415ff;
@@ -425,3 +429,44 @@ background-color:rgb(36, 3, 102);
 .quality__img--wrapper {
 
 }
+
+/* STEPS SECTION */
+
+
+
+#steps {
+  padding: 0 36px;
+}
+
+.steps__container {
+  padding: 80px 0;
+}
+
+.steps__img--wrapper {
+width: 50%;
+}
+img {
+  width: 100%;
+}
+
+.steps__description {
+  width: 50%;
+}
+
+.steps__grid {
+position: absolute;
+width: 80px;
+height: 80px;
+opacity: 0.15;
+right: 0;
+
+left: 50%;
+transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+fill: rgba(100, 21, 255);
+z-index: 1;
+}
+
+.steps__initialize-wrapper {
+  display: flex;
+}
+
