@@ -437,7 +437,11 @@ background-color:rgb(36, 3, 102);
 #steps {
   padding: 0 36px;
 }
-
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto
+}
 .steps__container {
   padding: 80px 0;
 }
@@ -450,6 +454,7 @@ img {
 }
 
 .steps__description {
+
   width: 50%;
 }
 
@@ -466,7 +471,7 @@ fill: rgba(100, 21, 255);
 z-index: 1;
 }
 
-.steps__initialize-wrapper {
+.steps__initialize--wrapper {
   display: flex;
 }
 
