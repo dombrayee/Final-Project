@@ -458,6 +458,9 @@ img {
 
 .steps__description {
   width: 50%;
+  padding: 32px 0;
+  padding-left: 64px;
+
 }
 
 .steps__grid {
