@@ -645,9 +645,9 @@ color: #ffffff;
 
 /* PRICING */
 #pricing {
-
+padding: 0 32px;
 }
-
+  
 .pricing__container {
   padding: 96px 0;
 }
@@ -686,4 +686,46 @@ font-weight: 700;
   text-align: center;
 }
 .plans__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+.plan__wrapper {
+  padding: 32px;
+  text-align: center;
+  width: 100%;
+}
+
+.plan__stripe {
+  height: 8px;
+  background-color: rgb(56, 178, 172);
+}
+
+.plan__middle--wrapper {
+  padding: 32px;
+  text-align: center;
+
+}
+
+.plan__name, .plan__duration {
+  font-weight: bold;
+  line-height: 1.625;
+
+}
+.plan__name {
+  font-size: 20px;
+}
+.plan__price {
+  font-size: 48px;
+  margin: 4px 0;
+  color: #1a202c;
+  font-weight: bold;
+  line-height: 1.625;
+}
+.plan__top--wrapper {
+  padding-top: 32px;
+  text-align: center;
 }
