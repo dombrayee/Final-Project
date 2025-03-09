@@ -92,10 +92,9 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusamus reprehenderit ratione autem?
         </p>
 
+        <div class="service__container--wrapper">
 
-        <div class="service__wrapper">
 
-          <div class="service__container">
             <div class="service">
               <figure class="service__img--wrapper">
                 <img class="service__img" src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
@@ -109,9 +108,7 @@
                 </p>
               </div>
           </div>
-          </div>
 
-          <div class="service__container">
             <div class="service">
               <figure class="service__img--wrapper">
                 <img class="service__img" src="./assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="">
@@ -123,9 +120,7 @@
                 </p>
               </div>
             </div>
-          </div>
 
-          <div class="service__container">
             <div class="service">
               <figure class="service__img--wrapper">
                 <img class="service__img" src="./assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="">
@@ -137,9 +132,7 @@
                 </p>
               </div>
             </div>
-          </div>
 
-          <div class="service__container">
             <div class="service">
               <figure class="service__img--wrapper">
                 <img class="service__img" src="./assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="">
@@ -151,9 +144,7 @@
                 </p>
               </div>
             </div>
-          </div>
 
-          <div class="service__container">
             <div class="service">
               <figure class="service__img--wrapper">
                 <img class="service__img" src="./assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="">
@@ -165,9 +156,7 @@
                 </p>
               </div>
             </div>
-          </div>
 
-          <div class="service__container">
             <div class="service">
               <figure class="service__img--wrapper">
                 <img class="service__img" src="./assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="">
@@ -179,8 +168,8 @@
                 </p>
               </div>
             </div>
-          </div>
             </div>
+            
         </div>    
   </div>
   <svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" class="features__blob">
@@ -189,6 +178,7 @@
     </g>
 </svg>
 </section>
+
 <section id="quality">
   <div class="quality__container">
     <div class="row">
@@ -347,7 +337,6 @@ Learn More
 </section>
 
 <section id="pricing">
-
   <div class="pricing__container">
     <div class="pricing__row row">
       <div class="pricing__title">
@@ -361,9 +350,9 @@ Learn More
 
       <p class="pricing__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis consequatur obcaecati assumenda maiores dolores porro perspiciatis quis. Reiciendis, recusandae.</p>
 
-      <div class="plans__wrapper">
+      <div class="plans__wrapper row">
 
-      <div class="plan__wrapper">
+      <div class="plan__wrapper--personal">
         <div class="plan__stripe"></div>
         <div class="plan__top--wrapper">
           <div class="plan__name">PERSONAL</div>
@@ -378,33 +367,35 @@ Learn More
           <p class="plan__features">12 Internal Pages</p>
           <p class="plan__features">Basic Assistance</p>
         </div>
-        <button class="plan__button">BUY NOW</button>
+        <button class="plan__button--personal">BUY NOW</button>
       </div>
-      
-      <div class="plan__wrapper">
+
+      <div class="plan__wrapper--business">
 
         
         <div class="plan__top--wrapper">
-          <div class="plan__name">BUSINESS</div>
-          <div class="plan__price">$37.99</div>
-          <div class="plan__duration">MONTHLY</div>
-          <div class="plan__middle--wrapper">
-            <p class="plan__target">For Small Businesses</p>
-            <p class="plan__features">60 Templates</p>
-            <p class="plan__features">15 Landing Pages</p>
-            <p class="plan__features">22 Internal Pages</p>
-            <p class="plan__features">Priority Assistance</p>
+          <div class="plan__name--business">BUSINESS</div>
+          <div class="plan__price--tag">$37.99</div>
+          <div class="plan__duration--sub">MONTHLY</div>
           </div>
-          <button class="plan__button business">BUY NOW</button>
+          <div class="plan__middle--wrapper">
+            <p class="plan__target--small">For Small Businesses</p>
+            <p class="plan__features--business">60 Templates</p>
+            <p class="plan__features--business">15 Landing Pages</p>
+            <p class="plan__features--business">22 Internal Pages</p>
+            <p class="plan__features--business">Priority Assistance</p>
+          </div>
+          <button class="plan__button--business">BUY NOW</button>
         </div>
-      </div>
 
-      <div class="plan__wrapper">
+      <div class="plan__wrapper--enterprise">
         <div class="plan__stripe"></div>
         <div class="plan__top--wrapper">
           <div class="plan__name">ENTERPRISE</div>
           <div class="plan__price">$57.99</div>
           <div class="plan__duration">MONTHLY</div>
+          </div>
+
           <div class="plan__middle--wrapper">
             <p class="plan__target">For Large Companies</p>
             <p class="plan__features">90 Templates</p>
@@ -412,10 +403,11 @@ Learn More
             <p class="plan__features">37 Internal Pages</p>
             <p class="plan__features">Personal Assistance</p>
           </div>
-          <button class="plan__button enterprise">BUY NOW</button>
+          <button class="plan__button--enterprise">BUY NOW</button>
         </div>
+
       </div>
-    </div>
+      </div>
     </div>
   </div>
 </section>
@@ -462,13 +454,32 @@ Learn More
           <button></button>
           <button></button>
         </div>
+      </div>
 
+    </div>
+  </div>
 
+  <div class="container">
+
+    
+    <div class="start__container">
+      <div class="start__row.row">
+        <div class="start__title">
+          Developers all over the world are happily using Treact.
+        </div>
+        <div class="start__buttons.btn">
+          <button>Get Started</button>
+          <button>Contact Us</button>
+        </div>
       </div>
     </div>
   </div>
 
 </section>
     </main>
+
+    <footer>
+
+    </footer>
   </body>
 </html>
