@@ -692,14 +692,19 @@ font-weight: 700;
   max-width: 576px;
   text-align: center;
 }
+
+.plans__container {
+  margin: 36px 0;
+}
+
+
 .plans__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .plan__wrapper,
 .plan__wrapper--business {
-  width: 100%;
-  padding: 32px;
-  max-width: 384px;
   text-align: center;
 }
 
@@ -791,10 +796,17 @@ font-size: 16px;
   
 }
 
+.plan__stripe-2 {
+  height: 8px;
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
 
 .plan__button--enterprise {
-  color: rgb(247, 250, 252);
+  color: #f7fafc;
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
+
 
 .plan__wrapper--business {
   background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
@@ -948,6 +960,11 @@ align-items: center;
   justify-content: space-between;
 }
 
+.testimonial__buttons {
+  display: flex;
+  align-items: center;
+}
+
 .testimonial__details {
   margin-left: 16px;
 }
@@ -955,4 +972,19 @@ align-items: center;
   color: #7c8ba1;
     font-weight: 500;
     line-height: 1.5;
+}
+
+.testimonial__button-1 {
+  padding: 16px;
+  background: #edf2f7;
+  border-radius: 50%;
+  margin: 0 12px
+ 
+}
+.testimonial__button-2 {
+  padding: 16px;
+  background: #edf2f7;
+  border-radius: 50%;
+  margin: 0 12px
+ 
 }
