@@ -701,6 +701,7 @@ font-weight: 700;
 .plans__wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .plan__wrapper,
@@ -811,6 +812,12 @@ font-size: 16px;
 .plan__wrapper--business {
   background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 } 
+
+.plan__wrapper--enterprise,
+ .plan__wrapper--personal,
+.plan__wrapper--business {
+  margin-left: 48px;
+}
 
 
 
