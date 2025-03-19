@@ -360,7 +360,8 @@ border-radius: 500px;
   height: 24px;
 }
 .features__blob {
-transform: translateX(96px) translateY(192px) scaleX(1) scaleY(1);
+transform: translateX(96px)
+translateY(192px) scaleX(1) scaleY(1);
 position: absolute;
 right: 0px;
 bottom: 0px;
@@ -824,17 +825,18 @@ color: #ffffff;
   
   .plan__bottom {
   
-  padding: 32px 96px;
-  
-  z-index: 10;
-  
-  position: relative;
-  
-  }
-  
-  
+    padding: 32px 96px;
+    
+    z-index: 10;
+    
+    position: relative;
+    
+    }
+    
+    
   
   .plan__button {
+    margin: 0 auto;
   
   text-transform: uppercase;
   
