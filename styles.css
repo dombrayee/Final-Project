@@ -673,7 +673,6 @@ color: #ffffff;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  flex-wrap: wrap;
   position: relative;
   z-index: 100;
   }
