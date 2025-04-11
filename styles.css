@@ -24,10 +24,7 @@ html {
 #landing {
   padding: 0 32px;
 }
-.features__section--para {
-  text-align: center;
-  max-height: 1.625;
-}
+
 button {
   cursor: pointer;
 }
@@ -103,8 +100,71 @@ list-style-type: none;
   display: flex;
   align-items: center;
   padding-bottom: 2px;
- 
+  
 } 
+
+.btn__menu {
+  background-color: transparent;
+  border: none;
+  transition: all 300ms ease;
+}
+
+
+.menu__backdrop {
+  position: absolute;
+  background-color: lightgrey;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.menu--open .menu__backdrop {
+  display: flex;
+}
+
+.btn__menu--close {
+  position: fixed;
+  right: 18px;
+  top: 24px;
+  padding: 8px;
+}
+
+
+.menu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.menu--open .menu__links {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(0);
+}
+.menu__link {
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+.menu__list {
+padding-bottom: 2px solid transparent;
+margin: 8px 0;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.5;
+color: #1a202c;
+
+}
 
 /* HEADER */
 
@@ -132,14 +192,6 @@ header {
 
 .header__img {
   width: 100%;
-}
-
-.btn__menu {
-  background-color: white;
-  font-size: 40px;
-  text-align: center;
-  border: none;
-  display: none;
 }
 
 .nav_logo {
@@ -272,6 +324,12 @@ color:#243E65;
   font-size: 16px;
   letter-spacing: 1.6px;
   font-weight: 700;
+
+  .features__section--para 
+    text-align: center;
+    max-height: 1.625;
+  
+
 }
 
 .features__section--description {
@@ -425,9 +483,7 @@ z-index: 10;
 .quality__btn:hover {
 background-color:rgb(36, 3, 102);
 }
-.quality__img--wrapper {
 
-}
 
 /* STEPS SECTION */
 
