@@ -126,6 +126,15 @@ list-style-type: none;
   display: none;
 }
 
+.modal {
+  height: 378px;
+  margin: 24px 16px;
+  padding: 32px;
+  background-color: #fff;
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 8px;
+}
+
 .menu--open .menu__backdrop {
   display: flex;
 }
@@ -1268,4 +1277,15 @@ footer {
 .footer__social--link svg {
   height: 16px;
   width: 16px;
+}
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 728px) {
+  .btn__menu {
+  display: initial;
+  }
+
+  .nav__link--list {
+    display: none;
+  }
 }
