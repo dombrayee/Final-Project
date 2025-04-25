@@ -1285,7 +1285,14 @@ footer {
   .btn__menu {
   display: initial;
   }
-
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
   .nav__link--list {
     display: none;
   }
