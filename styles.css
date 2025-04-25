@@ -31,6 +31,14 @@ button {
 
 /* NAVIGATION BAR */
 
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
 
 nav {
   display: flex;
@@ -1285,13 +1293,7 @@ footer {
   .btn__menu {
   display: initial;
   }
-.nav__row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
+
 }
   .nav__link--list {
     display: none;
@@ -1334,15 +1336,17 @@ footer {
   .header__customers {
     padding-right: 0px;
   }
+
   .row {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   footer {
     padding: 80px 32px;
   }
-}
+
 
 @media (max-width: 1280px) {
 .plan__bottom {
