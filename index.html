@@ -81,26 +81,21 @@
 
       </nav>
 
-      <header class="row">
-        <div class="header__container">
-          <h1 class="header__title">
-            Beautiful React Templates <span class="purple">for you.</span>
+      <header>
+      <div class="container">
+        <div class="row">
+          <div class="header__description">
+           <h1>Beautiful React Templates <span class="purple">for you.</span>
           </h1>
           <p class="header__description--para">
             Our templates are easy to setup, understand and customize. Fully
             modular components with a verity of pages and components.
           </p>
-          <div class="header__email--wraper">
             <div class="header__email">
-              <input
-                type="text"
-                class="header__email--input"
-                placeholder="Your E-mail Address"
+              <input type="text" class="header__email--input" placeholder="Your E-mail Address"
               />
-
               <button class="header__email--btn">Get Started</button>
             </div>
-          </div>
           <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
           <img
             src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
@@ -111,9 +106,16 @@
         <figure class="header__img--wrapper">
           <img
             src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
-            alt=""
+            alt class="header__img"
           />
         </figure>
+      </div>
+      </div>
+        <svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" class="header__blob">
+          <g transform="translate(300,300)">
+              <path d="M176.2,-106.9C208.7,-45.5,201.8,33.5,165.8,99.4C129.9,165.3,65,218.2,-9.2,223.5C-83.4,228.8,-166.9,186.7,-201.6,121.4C-236.4,56.2,-222.6,-32.2,-180.9,-98.9C-139.1,-165.7,-69.6,-210.8,1.2,-211.5C71.9,-212.2,143.8,-168.3,176.2,-106.9Z" fill="#6415ff"></path>
+          </g>
+      </svg>
       </header>
     </section>
 
@@ -249,6 +251,7 @@
               ></path>
             </g>
           </svg>
+          
       </section>
 
       <section id="quality">
@@ -354,7 +357,7 @@
         <div class="values__container">
           <div class="row">
             <div class="values__description">
-              <div class="values__title">
+              <div class="values__tag">
                 <span class="purple"> VALUES </span>
               </div>
               <h2 class="values__sub-title">
@@ -367,10 +370,10 @@
                 nisi ut aliquip ex ea commodo consequat.
               </p>
               <div class="values__list">
-                <div class="values__list--wrapper1">
+                <div class="value">
                   <div class="values__title">
                     <div>
-                      <figure class="values__img--wrapper1">
+                      <figure class="value__img--wrapper">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -381,7 +384,7 @@
                           stroke-width="2"
                           stroke-linecap="round"
                           stroke-linejoin="round"
-                          class="values__img"
+                          class="value__img"
                         >
                           <line x1="12" y1="1" x2="12" y2="23"></line>
                           <path
@@ -398,9 +401,9 @@
                     the industry standard.
                   </p>
                 </div>
-                <div class="values__list--wrapper2">
+                <div class="value">
                   <div class="values__title">
-                    <figure class="values__img--wrapper2">
+                    <figure class="value__img--wrapper">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -411,7 +414,7 @@
                         stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        class="values__img"
+                        class="value__img"
                       >
                         <rect
                           x="2"
@@ -426,7 +429,7 @@
                         ></path>
                       </svg>
                     </figure>
-                    <div class="values__name">Professionalisim</div>
+                    <div class="values__name">Professionalism</div>
                   </div>
 
                   <p class="values__para">
@@ -437,7 +440,7 @@
               </div>
               <button class="values__btn btn">Learn More</button>
             </div>
-            <figure class="values__img--proto">
+            <figure class="values__img">
               <img
                 src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
                 alt=""
