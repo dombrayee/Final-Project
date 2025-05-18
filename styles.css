@@ -1359,15 +1359,30 @@ footer {
   width: 32px;
 }
 
-.footer__logo {
-  display: flex;
+
+
+.footer__logo--text {
+  font-size: 20px;
+  color: #f7fafc;
+  font-weight: 900;
+  margin-left: 8px;
+  letter-spacing: 0.05em;
 }
+
+
 
 .footer__bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+
 .footer__socials {
   display: flex;
   align-items: center;
