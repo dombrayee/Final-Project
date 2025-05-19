@@ -160,6 +160,7 @@ list-style-type: none;
   align-items: center;
   position: fixed;
   width: 100%;
+
 }
 
 .menu--open .menu__links {
@@ -174,7 +175,6 @@ list-style-type: none;
   margin: 8px 0;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
-  width: 100%;
   font-size: 18px;
   text-decoration: none;
 
@@ -1802,6 +1802,12 @@ footer {
 
 
 @media (max-width: 640px) {
+
+
+button {
+  line-height: 1.5;
+}
+
 
 
 .container {
